@@ -12,7 +12,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Running tests...'
-                sh 'runn ./PES1UG22CS647'  // Run the compiled program
+                sh 'runn ./PES1UG22CS248'  // Run the compiled program
             }
         }
 
